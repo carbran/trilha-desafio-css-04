@@ -23,6 +23,7 @@ header {
     width: 381px;
     height: 54px;
     border-radius: 28px;
+    justify-self: center;
     align-content: center;
     justify-items: center;
 }
