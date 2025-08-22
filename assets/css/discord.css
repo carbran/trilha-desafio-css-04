@@ -1,0 +1,56 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+h1 {
+    font-family: 'Luckiest Guy';
+}
+
+p {
+    font-family: 'Open Sans';
+}
+
+header {
+    background-image: url('../images/header-background.png');
+    color: #FFFFFF;
+    height: 428px;
+    align-content: center;
+}
+
+.btn {
+    width: 381px;
+    height: 54px;
+    border-radius: 28px;
+    align-content: center;
+    justify-items: center;
+}
+
+#btn-download {
+    background-color: #FFFFFF;
+    color: #23272A;
+}
+
+#opn-browser {
+    background-color: #23272A;
+    color: #FFFFFF;
+}
+
+main {
+    /* align-content: center; */
+    justify-items: center;
+    gap: 15px;
+}
+
+#info-2, #info-4 {
+    background-color: #F6F6F6;
+}
+
+footer {
+    background-color: #23272A;
+    width: 100%;
+    height: 134px;
+    align-content: center;
+    justify-items: center;
+}
