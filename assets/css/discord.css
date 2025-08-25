@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+body {
+    border: 1px solid red;
+}
+
 h1 {
     font-family: 'Luckiest Guy';
 }
@@ -12,17 +16,33 @@ p {
     font-family: 'Open Sans';
 }
 
+img {
+    width: 100%;
+}
+
 header {
     background-image: url('../images/header-background.png');
     color: #FFFFFF;
-    height: 428px;
     align-content: center;
+    padding: 25px 25px 50px;
+    background-size: cover;
+    background-position:70%;
+}
+
+#title-header {
+    font-size: 24px;
+    margin: 40px 0px 20px 0px;
+}
+
+#text-header {
+    margin-bottom: 30px;
 }
 
 .btn {
-    width: 381px;
+    width: 100%;
     height: 54px;
     border-radius: 28px;
+    margin: 15px 0px;
     justify-self: center;
     align-content: center;
     justify-items: center;
@@ -39,13 +59,27 @@ header {
 }
 
 main {
-    /* align-content: center; */
+    align-content: center;
     justify-items: center;
     gap: 15px;
+    padding: 20px;
+}
+
+.info-section {
+    width: 100%;
 }
 
 #info-2, #info-4 {
     background-color: #F6F6F6;
+}
+
+.img-section {
+    border: 1px solid black;
+    object-fit: contain;
+}
+
+.title-section {
+    font-size: 24px;
 }
 
 footer {
